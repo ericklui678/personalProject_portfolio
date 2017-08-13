@@ -7,6 +7,15 @@
  * URL: http://blacktie.co
  */
 
+.col-lg-3 {
+	/*background-color: yellow;*/
+}
+
+.img-circle {
+	width: 250px;
+	height: 250px;
+}
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -230,27 +239,26 @@ body {
     width: 100%;
 		background-attachment: fixed;
 		background-position: bottom;
+		/*background-position: bottom;*/
+		/*background-position: -70% 0, 170% 0;*/
 		background-repeat: no-repeat;
-		background-size: cover;
-	/*background-attachment: relative;
-	background-position: center center;*/
 }
 
 #slide-1 h1 {
 	padding-top: 130px;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
 	#slide-1 {
 		background-position: -70% 0, 170% 0;
 	}
-}
+}*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 	#slide-1 {
 		background-image: none;
 	}
-}
+}*/
 
 	#home-row-1,
 	#home-row-2 {
@@ -267,7 +275,6 @@ body {
 
 	#home-row-2 {
 		font-size: 25px;
-		/*background-color: yellow;*/
 	}
 
 	#home-row-2 .col-12 {
@@ -307,15 +314,13 @@ body {
 }
 
 #slide-2 {
-	background-color: white;
+	background-color: #f7f7f7;
 	padding-top: 90px;
-	/*background-color: #1abc9c;*/
-	/*color: #e4e6e5;*/
 }
 
 	.title-row {
 		font-size: 45px;
-		padding-bottom: 50px;
+		padding-bottom: 35px;
 	}
 
 	.line-row .hr {
@@ -332,7 +337,7 @@ body {
 	}
 
 	.content-row {
-		padding-top: 45px;
+		padding-top: 25px;
 	}
 
 	.content-row i,
@@ -345,7 +350,7 @@ body {
 
 	.content-row h2 {
 		font-size: 28px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 	}
 
 	.content-row h4 {
@@ -387,7 +392,7 @@ body {
 }
 
 #slide-3 {
-	background-color: #000;
+	background-color: white;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
@@ -425,7 +430,7 @@ body {
 
 	#slide-3 .col-12 {
 		height: auto;
-		width: 50%
+		width: 50%;
 	}
 
 	#slide-3 a,
