@@ -469,7 +469,7 @@ body {
 #slide-6 {
 	background-color: #2f2f2f;
 	color: #e4e6e5;
-	padding-bottom: 350px;
+	/*padding-bottom: 350px;*/
 	padding-top: 90px;
 }
 
@@ -498,7 +498,7 @@ body {
 }
 
 	#contact-row-4 {
-		padding-top: 125px;
+		/*padding-top: 125px;*/
 	}
 
 	#contact-row-4 .col-12 {
@@ -521,7 +521,7 @@ body {
 	}
 
 	#contact-row-4 .col-12 .hover-text {
-		display: none;
+		/*display: none;*/
 		font-size: 20px;
 	}
 
