@@ -7,8 +7,11 @@
  * URL: http://blacktie.co
  */
 
- /* EDITS ------------- */
+ /* EDITS BELOW ------------- */
 
+.img-centered {
+  max-height: 500px;
+}
 
  #slide-6{
  	padding-bottom: 30px;
@@ -162,7 +165,7 @@
   #slide-3 .portfolio-item {
     margin: 0 0 30px; } }
 
- /* EDITS ------------- */
+ /* EDITS END ------------- */
 
 .img-circle {
 	width: 250px;
