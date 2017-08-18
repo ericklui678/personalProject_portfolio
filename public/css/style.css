@@ -73,9 +73,12 @@
 
  .portfolio-modal .modal-dialog {
 	/*background-color: green;*/
+  margin: 0;
+  padding: 0;
 	position: absolute;
 	top: -10;
 	left: 0%;
+  height: 100%;
 	/*transform: translate(25%, 0%);*/
    width: 100%;
    /*min-height: 100%;*/
@@ -89,6 +92,7 @@
    /*box-shadow: none;*/
  }
  .portfolio-modal .modal-dialog .modal-content {
+   height: 100%;
 	 text-align: center;
 	 padding: 75px;
 	 border: 0;
